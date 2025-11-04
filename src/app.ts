@@ -14,7 +14,7 @@ app.use(express.json());
 
 // Parse URL-encoded data (e.g., from forms)
 app.use(express.urlencoded({ extended: true }));
-
+//routing start from hare
 // Mount user-related routes under /api/v1/user
 app.use("/api/v1/user", router);
 
