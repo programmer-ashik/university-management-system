@@ -5,7 +5,7 @@ import config from './config/index'
 async function connectDB() {
   try {
     // attempt to connect to the mongoDB
-    await mongoose.connect(config.database_url as number)
+    await mongoose.connect(config.database_url as numbe)
     // start the express server after a successful database connection
     app.listen(config.port, () => {
       console.log(`✅ Server is running on port ${config.port}`)

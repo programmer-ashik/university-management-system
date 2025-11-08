@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --compiler-options '{\"moduleResolution\": \"NodeNext\"}' src/server.ts",
-    "test": "echo \"No tests yet\"",
+    "test": "tsc --noEmit",
     "format": "prettier --ignore-path .gitignore --write \"**/*.+(js|ts|json)\"",
     "prepare": "husky",
     "lint": "eslint . --ext .ts,.js"
