@@ -17,5 +17,4 @@ async function connectDB() {
     console.error(`❌Fail to connect database`, error)
   }
 }
-console.log(config)
 connectDB()
