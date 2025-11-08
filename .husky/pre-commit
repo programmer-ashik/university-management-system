@@ -6,3 +6,5 @@ npm test
 
 echo "🧹 Running lint-staged..."
 npx lint-staged
+# make this on every code change in this file
+# chmod +x .husky/pre-commit
